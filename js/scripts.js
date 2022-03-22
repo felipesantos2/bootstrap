@@ -34,6 +34,7 @@ $('#form-contato').submit(function () {
     return false;
 
     };
+    
     // Valida o campo Mensagem
     if (mensagem.val() == '') {
         erros.removeClass('d-none');
@@ -44,6 +45,7 @@ $('#form-contato').submit(function () {
 
     };
 
-    return false;
+    // Se chegar aqui os dados podem se enviados
+    return true;
 
 })
