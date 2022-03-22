@@ -16,6 +16,8 @@ iframe#maps-google {
     height: 500px;
 }
 
+/* Medias Querys */
+
 @media(max-width:900px){
    
     .google-map{
@@ -25,6 +27,29 @@ iframe#maps-google {
  
 }
 
+/*  */
+
 form, .alert{
     margin-bottom: 0;
+}
+
+#nome:focus{
+    box-shadow: 0 0 0 0;
+    border: 1px solid green;
+    outline: 0;
+
+}
+
+#email:focus{
+    box-shadow: 0 0 0 0;
+    border: 1px solid green;
+    outline: 0;
+
+}
+
+#mensagem:focus{
+    box-shadow: 0 0 0 0;
+    border: 1px solid green;
+    outline:auto;
+
 }
